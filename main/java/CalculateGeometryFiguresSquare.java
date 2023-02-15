@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class CalculateGeometryFiguresSquare {
     public static void main(String[] args) {
-        String figureName = readGeometryFigureName();
-        int figureNumber = returnNumberOfGeometryFigure(figureName);
-        System.out.println("figureName" + figureName);
-
+        //String figureName = readGeometryFigureName();
+        //int figureNumber = returnNumberOfGeometryFigure(figureName);
+        //System.out.println("figureName" + figureName);
+        System.out.println(Math.PI);
     }
     public static String readGeometryFigureName() {
         return new Scanner(System.in).next();
@@ -26,5 +26,8 @@ public class CalculateGeometryFiguresSquare {
     public static double calculateTriangleSqure(int height, int side) {
 
         return 0.5 * height * side;
+    }
+    public static double calculateCircleSqure(int radius) {
+        return Math.PI * Math.pow(radius, 2);
     }
 }
