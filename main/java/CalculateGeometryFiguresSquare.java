@@ -1,7 +1,20 @@
 import java.util.Scanner;
+/**
+ byte
+ short
+ int
+ long
+ float
+ double
+ char
+ boolean
+
+ */
 
 public class CalculateGeometryFiguresSquare {
     private static Scanner scanner = new Scanner(System.in);
+    private final static char SOME_CHAR = '@';
+
 
     public static void main(String[] args) {
         System.out.println("Программа расчёта геометрических фигур");
