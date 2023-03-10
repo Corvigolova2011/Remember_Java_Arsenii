@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
- byte
+ byte - min value = -128; max value
  short
  int
  long
